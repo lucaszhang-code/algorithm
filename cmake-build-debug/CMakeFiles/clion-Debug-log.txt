@@ -1,4 +1,16 @@
-/Users/lucas/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/lucas/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/lucas/Desktop/数据结构与算法/algorithm -B /Users/lucas/Desktop/数据结构与算法/algorithm/cmake-build-debug
--- Configuring done (0.1s)
+C:\Users\Lucas\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Lucas/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\Lucas\Desktop\工作\C++学习\算法\algorithm -B C:\Users\Lucas\Desktop\工作\C++学习\算法\algorithm\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (3.7s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/lucas/Desktop/数据结构与算法/algorithm/cmake-build-debug
+-- Build files have been written to: C:/Users/Lucas/Desktop/工作/C++学习/算法/algorithm/cmake-build-debug

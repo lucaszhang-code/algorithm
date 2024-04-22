@@ -1,9 +1,2 @@
 # ninja log v5
-4	160	1713777869623807430	CMakeFiles/algorithm.dir/数组：1.二分查找法.cpp.o	ab4e986a2a85c7b4
-161	218	1713777869684138729	algorithm	dab081f75a4d9358
-6	995	1713777860836607182	CMakeFiles/algorithm.dir/数组：2.移除元素.cpp.o	e31a56ffd54a2fd
-5	223	1713779180781587360	CMakeFiles/algorithm.dir/数组：2.移除元素.cpp.o	e31a56ffd54a2fd
-6	1086	1713779181641222869	CMakeFiles/algorithm.dir/数组：3.有序数组的平方.cpp.o	78cb5cd8c7be2565
-1087	1205	1713779181767815710	algorithm	a4e77b886ae744b1
-4	753	1713779532482106206	CMakeFiles/algorithm.dir/数组：3.有序数组的平方.cpp.o	78cb5cd8c7be2565
 755	820	1713779532554171815	algorithm	a4e77b886ae744b1

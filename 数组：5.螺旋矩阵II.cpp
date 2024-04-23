@@ -49,7 +49,7 @@ using namespace std;
 
 int main()
 {
-    int n=1;
+    int n=3;
 
     for(int i=0;i<generateMatrix(n).size();i++)
     {

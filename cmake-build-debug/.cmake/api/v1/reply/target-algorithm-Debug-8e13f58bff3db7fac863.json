@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "algorithm.exe"
-		},
-		{
-			"path" : "algorithm.pdb"
+			"path" : "algorithm"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
 				}
 			],
 			"language" : "CXX",
@@ -54,7 +51,9 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -70,16 +69,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "algorithm",
-	"nameOnDisk" : "algorithm.exe",
+	"nameOnDisk" : "algorithm",
 	"paths" : 
 	{
 		"build" : ".",
@@ -93,7 +88,9 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4
 			]
 		}
 	],
@@ -115,6 +112,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "\u6570\u7ec4\uff1a3.\u6709\u5e8f\u6570\u7ec4\u7684\u5e73\u65b9.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "\u6570\u7ec4\uff1a4.\u957f\u5ea6\u6700\u5c0f\u7684\u5b50\u6570\u7ec4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "\u6570\u7ec4\uff1a5.\u87ba\u65cb\u77e9\u9635II.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

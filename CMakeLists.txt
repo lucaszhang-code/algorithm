@@ -11,4 +11,5 @@ add_executable(algorithm
         数组：5.螺旋矩阵II.cpp
         链表：1.移除链表元素.cpp
         链表：2.设计链表.cpp
-        力扣：字符串相加.cpp)
+        链表：3.反转链表.cpp
+        链表：4.两两交换链表中的节点.cpp)

@@ -7,25 +7,32 @@
 //    ListNode(int x):val(x),next(nullptr){}
 //};
 //
-//ListNode* swapPairs(ListNode* head) {
+//ListNode* removeNthFromEnd(ListNode* head, int n) {
 //    ListNode* dummyHead=new ListNode(0);
 //    dummyHead->next=head;
-//    ListNode* cur=dummyHead;
-//    while(cur->next != nullptr && cur->next->next != nullptr)
-//    {
-//        ListNode* tmp=cur->next;
-//        ListNode* tmp1=cur->next->next->next;
-//        cur->next=cur->next->next;
-//        cur->next->next=tmp;
-//        tmp->next=tmp1;
-//        cur=cur->next->next;
+//    ListNode* fast=dummyHead;
+//    ListNode* slow=dummyHead;
+//
+//    n++;
+//    while(n-- && fast!= nullptr){
+//        fast=fast->next;
 //    }
+//    while (fast)
+//    {
+//        fast=fast->next;
+//        slow=slow->next;
+//    }
+//    ListNode* tmp=slow->next;
+//    slow->next=slow->next->next;
+//    //释放内存
+//    delete tmp;
+//
 //    return dummyHead->next;
 //}
 //
 //int main(){
 //
-//        //1->2->6->3->4->5->6
+//    //1->2->6->3->4->5->6
 //    ListNode* n0=new ListNode(1);
 //    ListNode* n1=new ListNode(2);
 //    ListNode* n2=new ListNode(6);
@@ -40,13 +47,11 @@
 //    n4->next=n5;
 //    n5->next=n6;
 //
-//    ListNode* head=swapPairs(n0);
-//    while(head!= nullptr)
-//    {
-//        cout<<head->val<<" ";
+//    ListNode* head= removeNthFromEnd(n0,2);
+//    while(head){
+//        cout<<head->val;
 //        head=head->next;
 //    }
-//
 //
 //    return 0;
 //}

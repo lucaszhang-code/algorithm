@@ -60,7 +60,10 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -105,7 +108,10 @@
 				5,
 				6,
 				7,
-				8
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -163,6 +169,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "\u94fe\u8868\uff1a4.\u4e24\u4e24\u4ea4\u6362\u94fe\u8868\u4e2d\u7684\u8282\u70b9.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "c++\u7279\u6027\uff1aLambda\u8868\u8fbe\u5f0f.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "\u94fe\u8868\uff1a5.\u5220\u9664\u94fe\u8868\u5012\u6570\u7b2cn\u4e2a\u8282\u70b9.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "\u94fe\u8868\uff1a6.\u73af\u5f62\u94fe\u8868II.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

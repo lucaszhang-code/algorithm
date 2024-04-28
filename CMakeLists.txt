@@ -15,4 +15,6 @@ add_executable(algorithm
         链表：4.两两交换链表中的节点.cpp
         c++特性：Lambda表达式.cpp
         链表：5.删除链表倒数第n个节点.cpp
-        链表：6.环形链表II.cpp)
+        链表：6.环形链表II.cpp
+        哈希表：1.有效的字母异位词.cpp
+        哈希表：2.两个数组的交集.cpp)

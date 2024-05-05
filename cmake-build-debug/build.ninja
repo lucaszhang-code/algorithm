@@ -145,6 +145,12 @@ build CMakeFiles/algorithm.dir/哈希表：4.四数相加II.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\algorithm.dir
 
+build CMakeFiles/algorithm.dir/前序遍历_递归.cpp.obj: CXX_COMPILER__algorithm_unscanned_Debug C$:/Users/Lucas/Desktop/工作/C++学习/算法/algorithm/前序遍历_递归.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles\algorithm.dir\前序遍历_递归.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\algorithm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithm
@@ -153,7 +159,7 @@ build CMakeFiles/algorithm.dir/哈希表：4.四数相加II.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable algorithm.exe
 
-build algorithm.exe: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/数组：1.二分查找法.cpp.obj CMakeFiles/algorithm.dir/数组：2.移除元素.cpp.obj CMakeFiles/algorithm.dir/数组：3.有序数组的平方.cpp.obj CMakeFiles/algorithm.dir/数组：4.长度最小的子数组.cpp.obj CMakeFiles/algorithm.dir/数组：5.螺旋矩阵II.cpp.obj CMakeFiles/algorithm.dir/链表：1.移除链表元素.cpp.obj CMakeFiles/algorithm.dir/链表：2.设计链表.cpp.obj CMakeFiles/algorithm.dir/链表：3.反转链表.cpp.obj CMakeFiles/algorithm.dir/链表：4.两两交换链表中的节点.cpp.obj CMakeFiles/algorithm.dir/c++特性：Lambda表达式.cpp.obj CMakeFiles/algorithm.dir/链表：5.删除链表倒数第n个节点.cpp.obj CMakeFiles/algorithm.dir/链表：6.环形链表II.cpp.obj CMakeFiles/algorithm.dir/哈希表：1.有效的字母异位词.cpp.obj CMakeFiles/algorithm.dir/哈希表：2.两个数组的交集.cpp.obj CMakeFiles/algorithm.dir/哈希表：3.两数之和.cpp.obj CMakeFiles/algorithm.dir/哈希表：4.四数相加II.cpp.obj
+build algorithm.exe: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/数组：1.二分查找法.cpp.obj CMakeFiles/algorithm.dir/数组：2.移除元素.cpp.obj CMakeFiles/algorithm.dir/数组：3.有序数组的平方.cpp.obj CMakeFiles/algorithm.dir/数组：4.长度最小的子数组.cpp.obj CMakeFiles/algorithm.dir/数组：5.螺旋矩阵II.cpp.obj CMakeFiles/algorithm.dir/链表：1.移除链表元素.cpp.obj CMakeFiles/algorithm.dir/链表：2.设计链表.cpp.obj CMakeFiles/algorithm.dir/链表：3.反转链表.cpp.obj CMakeFiles/algorithm.dir/链表：4.两两交换链表中的节点.cpp.obj CMakeFiles/algorithm.dir/c++特性：Lambda表达式.cpp.obj CMakeFiles/algorithm.dir/链表：5.删除链表倒数第n个节点.cpp.obj CMakeFiles/algorithm.dir/链表：6.环形链表II.cpp.obj CMakeFiles/algorithm.dir/哈希表：1.有效的字母异位词.cpp.obj CMakeFiles/algorithm.dir/哈希表：2.两个数组的交集.cpp.obj CMakeFiles/algorithm.dir/哈希表：3.两数之和.cpp.obj CMakeFiles/algorithm.dir/哈希表：4.四数相加II.cpp.obj CMakeFiles/algorithm.dir/前序遍历_递归.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\algorithm.dir

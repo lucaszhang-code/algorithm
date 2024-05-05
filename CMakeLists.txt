@@ -19,4 +19,5 @@ add_executable(algorithm
         哈希表：1.有效的字母异位词.cpp
         哈希表：2.两个数组的交集.cpp
         哈希表：3.两数之和.cpp
-        哈希表：4.四数相加II.cpp)
+        哈希表：4.四数相加II.cpp
+        前序遍历_递归.cpp)

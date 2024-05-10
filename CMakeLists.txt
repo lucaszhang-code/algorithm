@@ -28,7 +28,4 @@ add_executable(algorithm
         二叉树：6.二叉树的最小深度.cpp
         二叉树：7.翻转二叉树.cpp
         二叉树：8.对称二叉树.cpp
-        demo1.cpp
-        demo1.cpp
-        demo2.cpp
 )

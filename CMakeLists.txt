@@ -30,4 +30,5 @@ add_executable(algorithm
         二叉树：8.对称二叉树.cpp
         demo1.cpp
         demo1.cpp
+        demo2.cpp
 )

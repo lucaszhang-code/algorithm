@@ -28,4 +28,6 @@ add_executable(algorithm
         二叉树：6.二叉树的最小深度.cpp
         二叉树：7.翻转二叉树.cpp
         二叉树：8.对称二叉树.cpp
+        手写STL容器（C语言）/Stack容器.c
+        手写STL容器（C语言）/Queue容器.c
 )

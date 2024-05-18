@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "algorithm"
+			"path" : "algorithm.exe"
+		},
+		{
+			"path" : "algorithm.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -79,7 +82,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -102,12 +105,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "algorithm",
-	"nameOnDisk" : "algorithm",
+	"nameOnDisk" : "algorithm.exe",
 	"paths" : 
 	{
 		"build" : ".",

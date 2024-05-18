@@ -51,7 +51,7 @@ public class TestConnection {
 
 ##### 看见以下输出代表连接成功
 
-![1716023452647](C:\Users\Lucas\Documents\WeChat Files\wxid_rk5o1d9esq9a21\FileStorage\Temp\1716023452647.png)
+![输出图片](./assets/输出结果.png)
 
 ## 插入数据
 
@@ -306,7 +306,7 @@ public class TestSelect {
 
 ##### 运行结果
 
-![1716025006786](C:\Users\Lucas\Documents\WeChat Files\wxid_rk5o1d9esq9a21\FileStorage\Temp\1716025006786.png)
+![select输出结果](./assets/select输出结果.png)
 
 
 

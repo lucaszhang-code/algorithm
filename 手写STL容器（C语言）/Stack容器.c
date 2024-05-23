@@ -8,8 +8,7 @@
 //    int data[MAX];
 //    int top;
 //} Stack;
-//
-////初始化栈
+//初始化栈
 //void initStack(Stack* s){
 //    s -> top = -1;
 //}
@@ -17,7 +16,7 @@
 ////判断栈是否为空
 //int isEmpty(Stack* s){
 //    return s -> top == -1;
-//}
+//}l3
 //
 ////判断栈是否已满
 //int isFull(Stack* s){
@@ -55,6 +54,7 @@
 //        return s->data[s->top];
 //    }
 //}
+//
 //
 //int main(){
 //

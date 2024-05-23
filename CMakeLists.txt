@@ -30,4 +30,6 @@ add_executable(algorithm
         二叉树：8.对称二叉树.cpp
         手写STL容器（C语言）/Stack容器.c
         手写STL容器（C语言）/Queue容器.c
+        哈希表：5.快乐数.cpp
+        哈希表：6.三数之和.cpp
 )

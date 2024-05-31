@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Lucas/Desktop/工作/C++学习/算法/algorithm
+# Install script for directory: C:/Users/Lucas/Desktop/Study/algorithm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Lucas/Desktop/工作/C++学习/算法/algorithm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -3,34 +3,36 @@ project(algorithm)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(algorithm
-        数组：1.二分查找法.cpp
-        数组：2.移除元素.cpp
-        数组：3.有序数组的平方.cpp
-        数组：4.长度最小的子数组.cpp
-        数组：5.螺旋矩阵II.cpp
-        链表：1.移除链表元素.cpp
-        链表：2.设计链表.cpp
-        链表：3.反转链表.cpp
-        链表：4.两两交换链表中的节点.cpp
-        c++特性：Lambda表达式.cpp
-        链表：5.删除链表倒数第n个节点.cpp
-        链表：6.环形链表II.cpp
-        哈希表：1.有效的字母异位词.cpp
-        哈希表：2.两个数组的交集.cpp
-        哈希表：3.两数之和.cpp
-        哈希表：4.四数相加II.cpp
-        二叉树：1.二叉树的层序遍历II.cpp
-        二叉树：2.二叉树的右视图.cpp
-        二叉树：3.二叉树的层平均值.cpp
-        二叉树：4.在每个树形中找最大值.cpp
-        二叉树：5.二叉树的最大深度.cpp
-        二叉树：6.二叉树的最小深度.cpp
-        二叉树：7.翻转二叉树.cpp
-        二叉树：8.对称二叉树.cpp
-        "Create container by C/Stack_Container.c"
-        "Create container by C/Queue_Container.c"
-        哈希表：5.快乐数.cpp
-        哈希表：6.三数之和.cpp
-        哈希表：7.赎罪金.cpp
-)
+# Create separate executable for each main function
+add_executable(algorithm_Array_Test01 Array_Test01.cpp)
+add_executable(algorithm_Array_Test02 Array_Test02.cpp)
+add_executable(algorithm_Array_Test03 Array_Test03.cpp)
+add_executable(algorithm_Array_Test04 Array_Test04.cpp)
+add_executable(algorithm_Array_Test05 Array_Test05.cpp)
+add_executable(algorithm_List_Test01 List_Test01.cpp)
+add_executable(algorithm_List_Test02 List_Test02.cpp)
+add_executable(algorithm_List_Test03 List_Test03.cpp)
+add_executable(algorithm_List_Test04 List_Test04.cpp)
+add_executable(algorithm_Lambda_expression Lambda_expression.cpp)
+add_executable(algorithm_List_Test05 List_Test05.cpp)
+add_executable(algorithm_List_Test06 List_Test06.cpp)
+add_executable(algorithm_Hash_Test01 Hash_Test01.cpp)
+add_executable(algorithm_Hash_Test02 Hash_Test02.cpp)
+add_executable(algorithm_Hash_Test03 Hash_Test03.cpp)
+add_executable(algorithm_Hash_Test04 Hash_Test04.cpp)
+add_executable(algorithm_BT_Test01 BT_Test01.cpp)
+add_executable(algorithm_BT_Test02 BT_Test02.cpp)
+add_executable(algorithm_BT_Test03 BT_Test03.cpp)
+add_executable(algorithm_BT_Test04 BT_Test04.cpp)
+add_executable(algorithm_BT_Test05 BT_Test05.cpp)
+add_executable(algorithm_BT_Test06 BT_Test06.cpp)
+add_executable(algorithm_BT_Test07 BT_Test07.cpp)
+add_executable(algorithm_BT_Test08 BT_Test08.cpp)
+add_executable(algorithm_Stack_Container "Create container by C/Stack_Container.c")
+add_executable(algorithm_Queue_Container "Create container by C/Queue_Container.c")
+add_executable(algorithm_Hash_Test05 Hash_Test05.cpp)
+add_executable(algorithm_Hash_Test06 Hash_Test06.cpp)
+add_executable(algorithm_Hash_Test07 Hash_Test07.cpp)
+add_executable(algorithm_demo1 demo1.cpp)
+add_executable(algorithm_demo2 demo2.cpp)
+

@@ -1,0 +1,384 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_Test01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_Test01-Debug-0618a66830cecbca1422.json",
+					"name" : "algorithm_Array_Test01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_Test02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_Test02-Debug-2be1c39ea94bd9a17539.json",
+					"name" : "algorithm_Array_Test02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_Test03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_Test03-Debug-a0b7225ec4f13e64a09c.json",
+					"name" : "algorithm_Array_Test03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_Test04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_Test04-Debug-fae4a5e1bed4a012ca11.json",
+					"name" : "algorithm_Array_Test04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_Test05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_Test05-Debug-5c9e21edfbc152537b45.json",
+					"name" : "algorithm_Array_Test05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test01-Debug-1df3920105faef333f0d.json",
+					"name" : "algorithm_BT_Test01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test02-Debug-3dd0fb884ae0e37ec663.json",
+					"name" : "algorithm_BT_Test02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test03-Debug-89bd0c0282668be13931.json",
+					"name" : "algorithm_BT_Test03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test04-Debug-23d5e4ca0fb0760b124e.json",
+					"name" : "algorithm_BT_Test04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test05-Debug-f5e0f0b27e00b0ebd3e6.json",
+					"name" : "algorithm_BT_Test05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test06-Debug-e2f1e9ccad81ac68837d.json",
+					"name" : "algorithm_BT_Test06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test07-Debug-1809e0929d6664b6a1e2.json",
+					"name" : "algorithm_BT_Test07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_BT_Test08::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_BT_Test08-Debug-46bc03e6864d203e2c0a.json",
+					"name" : "algorithm_BT_Test08",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test01-Debug-8d25bcc3dde01f60a89e.json",
+					"name" : "algorithm_Hash_Test01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test02-Debug-ca2b33479b59c2103b3b.json",
+					"name" : "algorithm_Hash_Test02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test03-Debug-b4555b4053bc4f5adb59.json",
+					"name" : "algorithm_Hash_Test03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test04-Debug-5d1e8e1b70358b54875b.json",
+					"name" : "algorithm_Hash_Test04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test05-Debug-94435d0f36bcff2c7471.json",
+					"name" : "algorithm_Hash_Test05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test06-Debug-7daa239e9de59e3a9333.json",
+					"name" : "algorithm_Hash_Test06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Hash_Test07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Hash_Test07-Debug-5652d69114589954d8a6.json",
+					"name" : "algorithm_Hash_Test07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Lambda_expression::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Lambda_expression-Debug-87f2212b75b0e994d6c8.json",
+					"name" : "algorithm_Lambda_expression",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_List_Test01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_List_Test01-Debug-963633d8aab634168967.json",
+					"name" : "algorithm_List_Test01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_List_Test02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_List_Test02-Debug-e301728c8d79cc5128e1.json",
+					"name" : "algorithm_List_Test02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_List_Test03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_List_Test03-Debug-a91896b15517e990fdfe.json",
+					"name" : "algorithm_List_Test03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_List_Test04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_List_Test04-Debug-22ef2c9f96b4ba925a02.json",
+					"name" : "algorithm_List_Test04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_List_Test05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_List_Test05-Debug-39adbeadf21d986c2db5.json",
+					"name" : "algorithm_List_Test05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_List_Test06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_List_Test06-Debug-cefc69fdd7891b782e3c.json",
+					"name" : "algorithm_List_Test06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Map_BFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Map_BFS-Debug-632edcc2f5db42c5a624.json",
+					"name" : "algorithm_Map_BFS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Map_List::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Map_List-Debug-967a18d1a5cf682ad8bc.json",
+					"name" : "algorithm_Map_List",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Map_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Map_matrix-Debug-aa1c2a40b27025994626.json",
+					"name" : "algorithm_Map_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Map_matrix_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Map_matrix_demo-Debug-5f3108a8f29f64ffccf8.json",
+					"name" : "algorithm_Map_matrix_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Queue_Container::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Queue_Container-Debug-c87782c650441cfcf614.json",
+					"name" : "algorithm_Queue_Container",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Stack_Container::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Stack_Container-Debug-8e87825e039c5445ccf9.json",
+					"name" : "algorithm_Stack_Container",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_dem06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_dem06-Debug-d96935f5bd778eda32ca.json",
+					"name" : "algorithm_dem06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_demo1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_demo1-Debug-fb6eb79842af690c4333.json",
+					"name" : "algorithm_demo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_demo2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_demo2-Debug-b67afe703bab27e84cec.json",
+					"name" : "algorithm_demo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_demo3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_demo3-Debug-0bee7af1825b7830dab8.json",
+					"name" : "algorithm_demo3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug",
+		"source" : "C:/Users/Lucas/Desktop/Study/algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

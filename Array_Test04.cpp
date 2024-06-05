@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <cstdint>
+
 using namespace std;
 
 int minSubArrayLen(int target, vector<int>& nums) {

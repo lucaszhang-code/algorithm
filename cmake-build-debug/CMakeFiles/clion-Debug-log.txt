@@ -8,6 +8,6 @@ CMake Deprecation Warning:
   use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- Configuring done (0.8s)
--- Generating done (9.7s)
+-- Configuring done (0.3s)
+-- Generating done (1.9s)
 -- Build files have been written to: C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug

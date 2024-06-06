@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo.cpp.obj"
-  "CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo.cpp.obj.d"
+  "CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo1.cpp.obj"
+  "CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo1.cpp.obj.d"
   "algorithm_Map_matrix_demo.exe"
   "algorithm_Map_matrix_demo.exe.manifest"
   "algorithm_Map_matrix_demo.pdb"

@@ -1535,8 +1535,8 @@
 					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="algorithm_Map_matrix_demo">
-				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_matrix_demo.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="algorithm_Map_matrix_demo1">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_matrix_demo1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1552,14 +1552,14 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_matrix_demo"/>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_matrix_demo1"/>
 					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="algorithm_Map_matrix_demo/fast">
-				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_matrix_demo.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="algorithm_Map_matrix_demo1/fast">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_matrix_demo1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1575,7 +1575,7 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_matrix_demo/fast"/>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_matrix_demo1/fast"/>
 					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1719,6 +1719,190 @@
 					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="algorithm_Map_List_Demo1">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_List_Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_List_Demo1"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_List_Demo1/fast">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_List_Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_List_Demo1/fast"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_BFS_Demo1">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_BFS_Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_BFS_Demo1"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_BFS_Demo1/fast">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_BFS_Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_BFS_Demo1/fast"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_DFS">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_DFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_DFS"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_DFS/fast">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_DFS.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_DFS/fast"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_DFS_Demo1">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_DFS_Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_DFS_Demo1"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithm_Map_DFS_Demo1/fast">
+				<Option output="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/algorithm_Map_DFS_Demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithm_Map_DFS_Demo1/fast"/>
+					<CompileFile command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lucas/AppData/Local/Programs/CLion/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1830,14 +2014,26 @@
 		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_BFS.cpp">
 			<Option target="algorithm_Map_BFS"/>
 		</Unit>
+		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_BFS_Demo1.cpp">
+			<Option target="algorithm_Map_BFS_Demo1"/>
+		</Unit>
+		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_DFS.cpp">
+			<Option target="algorithm_Map_DFS"/>
+		</Unit>
+		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_DFS_Demo1.cpp">
+			<Option target="algorithm_Map_DFS_Demo1"/>
+		</Unit>
 		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_List.cpp">
 			<Option target="algorithm_Map_List"/>
+		</Unit>
+		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_List_Demo1.cpp">
+			<Option target="algorithm_Map_List_Demo1"/>
 		</Unit>
 		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_matrix.cpp">
 			<Option target="algorithm_Map_matrix"/>
 		</Unit>
-		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_matrix_demo.cpp">
-			<Option target="algorithm_Map_matrix_demo"/>
+		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/Map_matrix_demo1.cpp">
+			<Option target="algorithm_Map_matrix_demo1"/>
 		</Unit>
 		<Unit filename="C:/Users/Lucas/Desktop/Study/algorithm/demo1.cpp">
 			<Option target="algorithm_demo1"/>

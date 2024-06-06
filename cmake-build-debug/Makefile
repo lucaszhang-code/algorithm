@@ -545,17 +545,17 @@ algorithm_Map_matrix/fast:
 .PHONY : algorithm_Map_matrix/fast
 
 #=============================================================================
-# Target rules for targets named algorithm_Map_matrix_demo
+# Target rules for targets named algorithm_Map_matrix_demo1
 
 # Build rule for target.
-algorithm_Map_matrix_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_matrix_demo
-.PHONY : algorithm_Map_matrix_demo
+algorithm_Map_matrix_demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_matrix_demo1
+.PHONY : algorithm_Map_matrix_demo1
 
 # fast build rule for target.
-algorithm_Map_matrix_demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/build
-.PHONY : algorithm_Map_matrix_demo/fast
+algorithm_Map_matrix_demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/build
+.PHONY : algorithm_Map_matrix_demo1/fast
 
 #=============================================================================
 # Target rules for targets named algorithm_Map_List
@@ -595,6 +595,58 @@ algorithm_dem06: cmake_check_build_system
 algorithm_dem06/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/build
 .PHONY : algorithm_dem06/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Map_List_Demo1
+
+# Build rule for target.
+algorithm_Map_List_Demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_List_Demo1
+.PHONY : algorithm_Map_List_Demo1
+
+# fast build rule for target.
+algorithm_Map_List_Demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/build
+.PHONY : algorithm_Map_List_Demo1/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Map_BFS_Demo1
+
+# Build rule for target.
+algorithm_Map_BFS_Demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_BFS_Demo1
+.PHONY : algorithm_Map_BFS_Demo1
+
+# fast build rule for target.
+algorithm_Map_BFS_Demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/build
+.PHONY : algorithm_Map_BFS_Demo1/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Map_DFS
+
+# Build rule for target.
+algorithm_Map_DFS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_DFS
+.PHONY : algorithm_Map_DFS
+
+# fast build rule for target.
+algorithm_Map_DFS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/build
+.PHONY : algorithm_Map_DFS/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Map_DFS_Demo1
+
+# Build rule for target.
+algorithm_Map_DFS_Demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_DFS_Demo1
+.PHONY : algorithm_Map_DFS_Demo1
+
+# fast build rule for target.
+algorithm_Map_DFS_Demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/build
+.PHONY : algorithm_Map_DFS_Demo1/fast
 
 Array_Test01.obj: Array_Test01.cpp.obj
 .PHONY : Array_Test01.obj
@@ -1316,6 +1368,78 @@ Map_BFS.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS.dir\build.make CMakeFiles/algorithm_Map_BFS.dir/Map_BFS.cpp.s
 .PHONY : Map_BFS.cpp.s
 
+Map_BFS_Demo1.obj: Map_BFS_Demo1.cpp.obj
+.PHONY : Map_BFS_Demo1.obj
+
+# target to build an object file
+Map_BFS_Demo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/Map_BFS_Demo1.cpp.obj
+.PHONY : Map_BFS_Demo1.cpp.obj
+
+Map_BFS_Demo1.i: Map_BFS_Demo1.cpp.i
+.PHONY : Map_BFS_Demo1.i
+
+# target to preprocess a source file
+Map_BFS_Demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/Map_BFS_Demo1.cpp.i
+.PHONY : Map_BFS_Demo1.cpp.i
+
+Map_BFS_Demo1.s: Map_BFS_Demo1.cpp.s
+.PHONY : Map_BFS_Demo1.s
+
+# target to generate assembly for a file
+Map_BFS_Demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/Map_BFS_Demo1.cpp.s
+.PHONY : Map_BFS_Demo1.cpp.s
+
+Map_DFS.obj: Map_DFS.cpp.obj
+.PHONY : Map_DFS.obj
+
+# target to build an object file
+Map_DFS.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/Map_DFS.cpp.obj
+.PHONY : Map_DFS.cpp.obj
+
+Map_DFS.i: Map_DFS.cpp.i
+.PHONY : Map_DFS.i
+
+# target to preprocess a source file
+Map_DFS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/Map_DFS.cpp.i
+.PHONY : Map_DFS.cpp.i
+
+Map_DFS.s: Map_DFS.cpp.s
+.PHONY : Map_DFS.s
+
+# target to generate assembly for a file
+Map_DFS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/Map_DFS.cpp.s
+.PHONY : Map_DFS.cpp.s
+
+Map_DFS_Demo1.obj: Map_DFS_Demo1.cpp.obj
+.PHONY : Map_DFS_Demo1.obj
+
+# target to build an object file
+Map_DFS_Demo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/Map_DFS_Demo1.cpp.obj
+.PHONY : Map_DFS_Demo1.cpp.obj
+
+Map_DFS_Demo1.i: Map_DFS_Demo1.cpp.i
+.PHONY : Map_DFS_Demo1.i
+
+# target to preprocess a source file
+Map_DFS_Demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/Map_DFS_Demo1.cpp.i
+.PHONY : Map_DFS_Demo1.cpp.i
+
+Map_DFS_Demo1.s: Map_DFS_Demo1.cpp.s
+.PHONY : Map_DFS_Demo1.s
+
+# target to generate assembly for a file
+Map_DFS_Demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/Map_DFS_Demo1.cpp.s
+.PHONY : Map_DFS_Demo1.cpp.s
+
 Map_List.obj: Map_List.cpp.obj
 .PHONY : Map_List.obj
 
@@ -1339,6 +1463,30 @@ Map_List.s: Map_List.cpp.s
 Map_List.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List.dir\build.make CMakeFiles/algorithm_Map_List.dir/Map_List.cpp.s
 .PHONY : Map_List.cpp.s
+
+Map_List_Demo1.obj: Map_List_Demo1.cpp.obj
+.PHONY : Map_List_Demo1.obj
+
+# target to build an object file
+Map_List_Demo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/Map_List_Demo1.cpp.obj
+.PHONY : Map_List_Demo1.cpp.obj
+
+Map_List_Demo1.i: Map_List_Demo1.cpp.i
+.PHONY : Map_List_Demo1.i
+
+# target to preprocess a source file
+Map_List_Demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/Map_List_Demo1.cpp.i
+.PHONY : Map_List_Demo1.cpp.i
+
+Map_List_Demo1.s: Map_List_Demo1.cpp.s
+.PHONY : Map_List_Demo1.s
+
+# target to generate assembly for a file
+Map_List_Demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/Map_List_Demo1.cpp.s
+.PHONY : Map_List_Demo1.cpp.s
 
 Map_matrix.obj: Map_matrix.cpp.obj
 .PHONY : Map_matrix.obj
@@ -1364,29 +1512,29 @@ Map_matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix.dir\build.make CMakeFiles/algorithm_Map_matrix.dir/Map_matrix.cpp.s
 .PHONY : Map_matrix.cpp.s
 
-Map_matrix_demo.obj: Map_matrix_demo.cpp.obj
-.PHONY : Map_matrix_demo.obj
+Map_matrix_demo1.obj: Map_matrix_demo1.cpp.obj
+.PHONY : Map_matrix_demo1.obj
 
 # target to build an object file
-Map_matrix_demo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo.cpp.obj
-.PHONY : Map_matrix_demo.cpp.obj
+Map_matrix_demo1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/Map_matrix_demo1.cpp.obj
+.PHONY : Map_matrix_demo1.cpp.obj
 
-Map_matrix_demo.i: Map_matrix_demo.cpp.i
-.PHONY : Map_matrix_demo.i
+Map_matrix_demo1.i: Map_matrix_demo1.cpp.i
+.PHONY : Map_matrix_demo1.i
 
 # target to preprocess a source file
-Map_matrix_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo.cpp.i
-.PHONY : Map_matrix_demo.cpp.i
+Map_matrix_demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/Map_matrix_demo1.cpp.i
+.PHONY : Map_matrix_demo1.cpp.i
 
-Map_matrix_demo.s: Map_matrix_demo.cpp.s
-.PHONY : Map_matrix_demo.s
+Map_matrix_demo1.s: Map_matrix_demo1.cpp.s
+.PHONY : Map_matrix_demo1.s
 
 # target to generate assembly for a file
-Map_matrix_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/Map_matrix_demo.cpp.s
-.PHONY : Map_matrix_demo.cpp.s
+Map_matrix_demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/Map_matrix_demo1.cpp.s
+.PHONY : Map_matrix_demo1.cpp.s
 
 demo1.obj: demo1.cpp.obj
 .PHONY : demo1.obj
@@ -1520,9 +1668,13 @@ help:
 	@echo ... algorithm_List_Test05
 	@echo ... algorithm_List_Test06
 	@echo ... algorithm_Map_BFS
+	@echo ... algorithm_Map_BFS_Demo1
+	@echo ... algorithm_Map_DFS
+	@echo ... algorithm_Map_DFS_Demo1
 	@echo ... algorithm_Map_List
+	@echo ... algorithm_Map_List_Demo1
 	@echo ... algorithm_Map_matrix
-	@echo ... algorithm_Map_matrix_demo
+	@echo ... algorithm_Map_matrix_demo1
 	@echo ... algorithm_Queue_Container
 	@echo ... algorithm_Stack_Container
 	@echo ... algorithm_dem06
@@ -1619,15 +1771,27 @@ help:
 	@echo ... Map_BFS.obj
 	@echo ... Map_BFS.i
 	@echo ... Map_BFS.s
+	@echo ... Map_BFS_Demo1.obj
+	@echo ... Map_BFS_Demo1.i
+	@echo ... Map_BFS_Demo1.s
+	@echo ... Map_DFS.obj
+	@echo ... Map_DFS.i
+	@echo ... Map_DFS.s
+	@echo ... Map_DFS_Demo1.obj
+	@echo ... Map_DFS_Demo1.i
+	@echo ... Map_DFS_Demo1.s
 	@echo ... Map_List.obj
 	@echo ... Map_List.i
 	@echo ... Map_List.s
+	@echo ... Map_List_Demo1.obj
+	@echo ... Map_List_Demo1.i
+	@echo ... Map_List_Demo1.s
 	@echo ... Map_matrix.obj
 	@echo ... Map_matrix.i
 	@echo ... Map_matrix.s
-	@echo ... Map_matrix_demo.obj
-	@echo ... Map_matrix_demo.i
-	@echo ... Map_matrix_demo.s
+	@echo ... Map_matrix_demo1.obj
+	@echo ... Map_matrix_demo1.i
+	@echo ... Map_matrix_demo1.s
 	@echo ... demo1.obj
 	@echo ... demo1.i
 	@echo ... demo1.s

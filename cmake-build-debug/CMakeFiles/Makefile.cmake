@@ -85,8 +85,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/algorithm_demo2.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_demo3.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_Map_matrix.dir/DependInfo.cmake"
-  "CMakeFiles/algorithm_Map_matrix_demo.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_matrix_demo1.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_Map_List.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_Map_BFS.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_dem06.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_List_Demo1.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_BFS_Demo1.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_DFS.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_DFS_Demo1.dir/DependInfo.cmake"
   )

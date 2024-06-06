@@ -95,10 +95,14 @@ all: CMakeFiles/algorithm_demo1.dir/all
 all: CMakeFiles/algorithm_demo2.dir/all
 all: CMakeFiles/algorithm_demo3.dir/all
 all: CMakeFiles/algorithm_Map_matrix.dir/all
-all: CMakeFiles/algorithm_Map_matrix_demo.dir/all
+all: CMakeFiles/algorithm_Map_matrix_demo1.dir/all
 all: CMakeFiles/algorithm_Map_List.dir/all
 all: CMakeFiles/algorithm_Map_BFS.dir/all
 all: CMakeFiles/algorithm_dem06.dir/all
+all: CMakeFiles/algorithm_Map_List_Demo1.dir/all
+all: CMakeFiles/algorithm_Map_BFS_Demo1.dir/all
+all: CMakeFiles/algorithm_Map_DFS.dir/all
+all: CMakeFiles/algorithm_Map_DFS_Demo1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -139,10 +143,14 @@ clean: CMakeFiles/algorithm_demo1.dir/clean
 clean: CMakeFiles/algorithm_demo2.dir/clean
 clean: CMakeFiles/algorithm_demo3.dir/clean
 clean: CMakeFiles/algorithm_Map_matrix.dir/clean
-clean: CMakeFiles/algorithm_Map_matrix_demo.dir/clean
+clean: CMakeFiles/algorithm_Map_matrix_demo1.dir/clean
 clean: CMakeFiles/algorithm_Map_List.dir/clean
 clean: CMakeFiles/algorithm_Map_BFS.dir/clean
 clean: CMakeFiles/algorithm_dem06.dir/clean
+clean: CMakeFiles/algorithm_Map_List_Demo1.dir/clean
+clean: CMakeFiles/algorithm_Map_BFS_Demo1.dir/clean
+clean: CMakeFiles/algorithm_Map_DFS.dir/clean
+clean: CMakeFiles/algorithm_Map_DFS_Demo1.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -776,7 +784,7 @@ CMakeFiles/algorithm_BT_Test08.dir/clean:
 CMakeFiles/algorithm_Stack_Container.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Stack_Container.dir\build.make CMakeFiles/algorithm_Stack_Container.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Stack_Container.dir\build.make CMakeFiles/algorithm_Stack_Container.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target algorithm_Stack_Container"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target algorithm_Stack_Container"
 .PHONY : CMakeFiles/algorithm_Stack_Container.dir/all
 
 # Build rule for subdir invocation for target.
@@ -802,7 +810,7 @@ CMakeFiles/algorithm_Stack_Container.dir/clean:
 CMakeFiles/algorithm_Queue_Container.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Queue_Container.dir\build.make CMakeFiles/algorithm_Queue_Container.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Queue_Container.dir\build.make CMakeFiles/algorithm_Queue_Container.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target algorithm_Queue_Container"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target algorithm_Queue_Container"
 .PHONY : CMakeFiles/algorithm_Queue_Container.dir/all
 
 # Build rule for subdir invocation for target.
@@ -906,7 +914,7 @@ CMakeFiles/algorithm_Hash_Test07.dir/clean:
 CMakeFiles/algorithm_demo1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo1.dir\build.make CMakeFiles/algorithm_demo1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo1.dir\build.make CMakeFiles/algorithm_demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target algorithm_demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=77,78 "Built target algorithm_demo1"
 .PHONY : CMakeFiles/algorithm_demo1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -932,7 +940,7 @@ CMakeFiles/algorithm_demo1.dir/clean:
 CMakeFiles/algorithm_demo2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo2.dir\build.make CMakeFiles/algorithm_demo2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo2.dir\build.make CMakeFiles/algorithm_demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target algorithm_demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=79,80 "Built target algorithm_demo2"
 .PHONY : CMakeFiles/algorithm_demo2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -958,7 +966,7 @@ CMakeFiles/algorithm_demo2.dir/clean:
 CMakeFiles/algorithm_demo3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo3.dir\build.make CMakeFiles/algorithm_demo3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo3.dir\build.make CMakeFiles/algorithm_demo3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target algorithm_demo3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=81,82 "Built target algorithm_demo3"
 .PHONY : CMakeFiles/algorithm_demo3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -984,7 +992,7 @@ CMakeFiles/algorithm_demo3.dir/clean:
 CMakeFiles/algorithm_Map_matrix.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix.dir\build.make CMakeFiles/algorithm_Map_matrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix.dir\build.make CMakeFiles/algorithm_Map_matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target algorithm_Map_matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target algorithm_Map_matrix"
 .PHONY : CMakeFiles/algorithm_Map_matrix.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1004,30 +1012,30 @@ CMakeFiles/algorithm_Map_matrix.dir/clean:
 .PHONY : CMakeFiles/algorithm_Map_matrix.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/algorithm_Map_matrix_demo.dir
+# Target rules for target CMakeFiles/algorithm_Map_matrix_demo1.dir
 
 # All Build rule for target.
-CMakeFiles/algorithm_Map_matrix_demo.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target algorithm_Map_matrix_demo"
-.PHONY : CMakeFiles/algorithm_Map_matrix_demo.dir/all
+CMakeFiles/algorithm_Map_matrix_demo1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=69,70 "Built target algorithm_Map_matrix_demo1"
+.PHONY : CMakeFiles/algorithm_Map_matrix_demo1.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/algorithm_Map_matrix_demo.dir/rule: cmake_check_build_system
+CMakeFiles/algorithm_Map_matrix_demo1.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_Map_matrix_demo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_Map_matrix_demo1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/algorithm_Map_matrix_demo.dir/rule
+.PHONY : CMakeFiles/algorithm_Map_matrix_demo1.dir/rule
 
 # Convenience name for target.
-algorithm_Map_matrix_demo: CMakeFiles/algorithm_Map_matrix_demo.dir/rule
-.PHONY : algorithm_Map_matrix_demo
+algorithm_Map_matrix_demo1: CMakeFiles/algorithm_Map_matrix_demo1.dir/rule
+.PHONY : algorithm_Map_matrix_demo1
 
 # clean rule for target.
-CMakeFiles/algorithm_Map_matrix_demo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo.dir\build.make CMakeFiles/algorithm_Map_matrix_demo.dir/clean
-.PHONY : CMakeFiles/algorithm_Map_matrix_demo.dir/clean
+CMakeFiles/algorithm_Map_matrix_demo1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/clean
+.PHONY : CMakeFiles/algorithm_Map_matrix_demo1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/algorithm_Map_List.dir
@@ -1036,7 +1044,7 @@ CMakeFiles/algorithm_Map_matrix_demo.dir/clean:
 CMakeFiles/algorithm_Map_List.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List.dir\build.make CMakeFiles/algorithm_Map_List.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List.dir\build.make CMakeFiles/algorithm_Map_List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target algorithm_Map_List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target algorithm_Map_List"
 .PHONY : CMakeFiles/algorithm_Map_List.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1088,7 +1096,7 @@ CMakeFiles/algorithm_Map_BFS.dir/clean:
 CMakeFiles/algorithm_dem06.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=67,68 "Built target algorithm_dem06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target algorithm_dem06"
 .PHONY : CMakeFiles/algorithm_dem06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1106,6 +1114,110 @@ algorithm_dem06: CMakeFiles/algorithm_dem06.dir/rule
 CMakeFiles/algorithm_dem06.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/clean
 .PHONY : CMakeFiles/algorithm_dem06.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_Map_List_Demo1.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_Map_List_Demo1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=65,66 "Built target algorithm_Map_List_Demo1"
+.PHONY : CMakeFiles/algorithm_Map_List_Demo1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_Map_List_Demo1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_Map_List_Demo1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_Map_List_Demo1.dir/rule
+
+# Convenience name for target.
+algorithm_Map_List_Demo1: CMakeFiles/algorithm_Map_List_Demo1.dir/rule
+.PHONY : algorithm_Map_List_Demo1
+
+# clean rule for target.
+CMakeFiles/algorithm_Map_List_Demo1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/clean
+.PHONY : CMakeFiles/algorithm_Map_List_Demo1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_Map_BFS_Demo1.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_Map_BFS_Demo1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target algorithm_Map_BFS_Demo1"
+.PHONY : CMakeFiles/algorithm_Map_BFS_Demo1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_Map_BFS_Demo1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_Map_BFS_Demo1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_Map_BFS_Demo1.dir/rule
+
+# Convenience name for target.
+algorithm_Map_BFS_Demo1: CMakeFiles/algorithm_Map_BFS_Demo1.dir/rule
+.PHONY : algorithm_Map_BFS_Demo1
+
+# clean rule for target.
+CMakeFiles/algorithm_Map_BFS_Demo1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_BFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_BFS_Demo1.dir/clean
+.PHONY : CMakeFiles/algorithm_Map_BFS_Demo1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_Map_DFS.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_Map_DFS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target algorithm_Map_DFS"
+.PHONY : CMakeFiles/algorithm_Map_DFS.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_Map_DFS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_Map_DFS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_Map_DFS.dir/rule
+
+# Convenience name for target.
+algorithm_Map_DFS: CMakeFiles/algorithm_Map_DFS.dir/rule
+.PHONY : algorithm_Map_DFS
+
+# clean rule for target.
+CMakeFiles/algorithm_Map_DFS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS.dir\build.make CMakeFiles/algorithm_Map_DFS.dir/clean
+.PHONY : CMakeFiles/algorithm_Map_DFS.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_Map_DFS_Demo1.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_Map_DFS_Demo1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target algorithm_Map_DFS_Demo1"
+.PHONY : CMakeFiles/algorithm_Map_DFS_Demo1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_Map_DFS_Demo1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_Map_DFS_Demo1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_Map_DFS_Demo1.dir/rule
+
+# Convenience name for target.
+algorithm_Map_DFS_Demo1: CMakeFiles/algorithm_Map_DFS_Demo1.dir/rule
+.PHONY : algorithm_Map_DFS_Demo1
+
+# clean rule for target.
+CMakeFiles/algorithm_Map_DFS_Demo1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/clean
+.PHONY : CMakeFiles/algorithm_Map_DFS_Demo1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

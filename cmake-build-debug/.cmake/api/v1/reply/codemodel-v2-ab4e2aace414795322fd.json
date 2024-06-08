@@ -55,7 +55,11 @@
 						37,
 						38,
 						39,
-						40
+						40,
+						41,
+						42,
+						43,
+						44
 					]
 				}
 			],
@@ -110,12 +114,23 @@
 						37,
 						38,
 						39,
-						40
+						40,
+						41,
+						42,
+						43,
+						44
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_SelectionSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_SelectionSort-Debug-2090d1345ebc933131af.json",
+					"name" : "algorithm_Array_SelectionSort",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "algorithm_Array_Test01::@6890427a1f51a3e7e1df",
@@ -149,6 +164,13 @@
 					"id" : "algorithm_Array_Test05::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-algorithm_Array_Test05-Debug-5c9e21edfbc152537b45.json",
 					"name" : "algorithm_Array_Test05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Array_shellSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Array_shellSort-Debug-70da2d28e69b25eafc07.json",
+					"name" : "algorithm_Array_shellSort",
 					"projectIndex" : 0
 				},
 				{
@@ -335,6 +357,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "algorithm_Map_Kruskal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Map_Kruskal-Debug-400d26b901472f39d9eb.json",
+					"name" : "algorithm_Map_Kruskal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "algorithm_Map_List::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-algorithm_Map_List-Debug-967a18d1a5cf682ad8bc.json",
 					"name" : "algorithm_Map_List",
@@ -345,6 +374,13 @@
 					"id" : "algorithm_Map_List_Demo1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-algorithm_Map_List_Demo1-Debug-4a5d5cc6ca28057d8fe9.json",
 					"name" : "algorithm_Map_List_Demo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "algorithm_Map_Prime::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-algorithm_Map_Prime-Debug-90dee7cd43a0b5e5c931.json",
+					"name" : "algorithm_Map_Prime",
 					"projectIndex" : 0
 				},
 				{

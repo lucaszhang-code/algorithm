@@ -648,6 +648,82 @@ algorithm_Map_DFS_Demo1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/build
 .PHONY : algorithm_Map_DFS_Demo1/fast
 
+#=============================================================================
+# Target rules for targets named algorithm_Array_shellSort
+
+# Build rule for target.
+algorithm_Array_shellSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Array_shellSort
+.PHONY : algorithm_Array_shellSort
+
+# fast build rule for target.
+algorithm_Array_shellSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_shellSort.dir\build.make CMakeFiles/algorithm_Array_shellSort.dir/build
+.PHONY : algorithm_Array_shellSort/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Array_SelectionSort
+
+# Build rule for target.
+algorithm_Array_SelectionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Array_SelectionSort
+.PHONY : algorithm_Array_SelectionSort
+
+# fast build rule for target.
+algorithm_Array_SelectionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_SelectionSort.dir\build.make CMakeFiles/algorithm_Array_SelectionSort.dir/build
+.PHONY : algorithm_Array_SelectionSort/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Map_Prime
+
+# Build rule for target.
+algorithm_Map_Prime: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_Prime
+.PHONY : algorithm_Map_Prime
+
+# fast build rule for target.
+algorithm_Map_Prime/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/build
+.PHONY : algorithm_Map_Prime/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Map_Kruskal
+
+# Build rule for target.
+algorithm_Map_Kruskal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_Kruskal
+.PHONY : algorithm_Map_Kruskal
+
+# fast build rule for target.
+algorithm_Map_Kruskal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Kruskal.dir\build.make CMakeFiles/algorithm_Map_Kruskal.dir/build
+.PHONY : algorithm_Map_Kruskal/fast
+
+Array_SelectionSort.obj: Array_SelectionSort.cpp.obj
+.PHONY : Array_SelectionSort.obj
+
+# target to build an object file
+Array_SelectionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_SelectionSort.dir\build.make CMakeFiles/algorithm_Array_SelectionSort.dir/Array_SelectionSort.cpp.obj
+.PHONY : Array_SelectionSort.cpp.obj
+
+Array_SelectionSort.i: Array_SelectionSort.cpp.i
+.PHONY : Array_SelectionSort.i
+
+# target to preprocess a source file
+Array_SelectionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_SelectionSort.dir\build.make CMakeFiles/algorithm_Array_SelectionSort.dir/Array_SelectionSort.cpp.i
+.PHONY : Array_SelectionSort.cpp.i
+
+Array_SelectionSort.s: Array_SelectionSort.cpp.s
+.PHONY : Array_SelectionSort.s
+
+# target to generate assembly for a file
+Array_SelectionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_SelectionSort.dir\build.make CMakeFiles/algorithm_Array_SelectionSort.dir/Array_SelectionSort.cpp.s
+.PHONY : Array_SelectionSort.cpp.s
+
 Array_Test01.obj: Array_Test01.cpp.obj
 .PHONY : Array_Test01.obj
 
@@ -767,6 +843,30 @@ Array_Test05.s: Array_Test05.cpp.s
 Array_Test05.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_Test05.dir\build.make CMakeFiles/algorithm_Array_Test05.dir/Array_Test05.cpp.s
 .PHONY : Array_Test05.cpp.s
+
+Array_shellSort.obj: Array_shellSort.cpp.obj
+.PHONY : Array_shellSort.obj
+
+# target to build an object file
+Array_shellSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_shellSort.dir\build.make CMakeFiles/algorithm_Array_shellSort.dir/Array_shellSort.cpp.obj
+.PHONY : Array_shellSort.cpp.obj
+
+Array_shellSort.i: Array_shellSort.cpp.i
+.PHONY : Array_shellSort.i
+
+# target to preprocess a source file
+Array_shellSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_shellSort.dir\build.make CMakeFiles/algorithm_Array_shellSort.dir/Array_shellSort.cpp.i
+.PHONY : Array_shellSort.cpp.i
+
+Array_shellSort.s: Array_shellSort.cpp.s
+.PHONY : Array_shellSort.s
+
+# target to generate assembly for a file
+Array_shellSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_shellSort.dir\build.make CMakeFiles/algorithm_Array_shellSort.dir/Array_shellSort.cpp.s
+.PHONY : Array_shellSort.cpp.s
 
 BT_Test01.obj: BT_Test01.cpp.obj
 .PHONY : BT_Test01.obj
@@ -1440,6 +1540,30 @@ Map_DFS_Demo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_DFS_Demo1.dir\build.make CMakeFiles/algorithm_Map_DFS_Demo1.dir/Map_DFS_Demo1.cpp.s
 .PHONY : Map_DFS_Demo1.cpp.s
 
+Map_Kruskal.obj: Map_Kruskal.cpp.obj
+.PHONY : Map_Kruskal.obj
+
+# target to build an object file
+Map_Kruskal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Kruskal.dir\build.make CMakeFiles/algorithm_Map_Kruskal.dir/Map_Kruskal.cpp.obj
+.PHONY : Map_Kruskal.cpp.obj
+
+Map_Kruskal.i: Map_Kruskal.cpp.i
+.PHONY : Map_Kruskal.i
+
+# target to preprocess a source file
+Map_Kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Kruskal.dir\build.make CMakeFiles/algorithm_Map_Kruskal.dir/Map_Kruskal.cpp.i
+.PHONY : Map_Kruskal.cpp.i
+
+Map_Kruskal.s: Map_Kruskal.cpp.s
+.PHONY : Map_Kruskal.s
+
+# target to generate assembly for a file
+Map_Kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Kruskal.dir\build.make CMakeFiles/algorithm_Map_Kruskal.dir/Map_Kruskal.cpp.s
+.PHONY : Map_Kruskal.cpp.s
+
 Map_List.obj: Map_List.cpp.obj
 .PHONY : Map_List.obj
 
@@ -1487,6 +1611,30 @@ Map_List_Demo1.s: Map_List_Demo1.cpp.s
 Map_List_Demo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/Map_List_Demo1.cpp.s
 .PHONY : Map_List_Demo1.cpp.s
+
+Map_Prime.obj: Map_Prime.cpp.obj
+.PHONY : Map_Prime.obj
+
+# target to build an object file
+Map_Prime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj
+.PHONY : Map_Prime.cpp.obj
+
+Map_Prime.i: Map_Prime.cpp.i
+.PHONY : Map_Prime.i
+
+# target to preprocess a source file
+Map_Prime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.i
+.PHONY : Map_Prime.cpp.i
+
+Map_Prime.s: Map_Prime.cpp.s
+.PHONY : Map_Prime.s
+
+# target to generate assembly for a file
+Map_Prime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.s
+.PHONY : Map_Prime.cpp.s
 
 Map_matrix.obj: Map_matrix.cpp.obj
 .PHONY : Map_matrix.obj
@@ -1640,11 +1788,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... algorithm_Array_SelectionSort
 	@echo ... algorithm_Array_Test01
 	@echo ... algorithm_Array_Test02
 	@echo ... algorithm_Array_Test03
 	@echo ... algorithm_Array_Test04
 	@echo ... algorithm_Array_Test05
+	@echo ... algorithm_Array_shellSort
 	@echo ... algorithm_BT_Test01
 	@echo ... algorithm_BT_Test02
 	@echo ... algorithm_BT_Test03
@@ -1671,8 +1821,10 @@ help:
 	@echo ... algorithm_Map_BFS_Demo1
 	@echo ... algorithm_Map_DFS
 	@echo ... algorithm_Map_DFS_Demo1
+	@echo ... algorithm_Map_Kruskal
 	@echo ... algorithm_Map_List
 	@echo ... algorithm_Map_List_Demo1
+	@echo ... algorithm_Map_Prime
 	@echo ... algorithm_Map_matrix
 	@echo ... algorithm_Map_matrix_demo1
 	@echo ... algorithm_Queue_Container
@@ -1681,6 +1833,9 @@ help:
 	@echo ... algorithm_demo1
 	@echo ... algorithm_demo2
 	@echo ... algorithm_demo3
+	@echo ... Array_SelectionSort.obj
+	@echo ... Array_SelectionSort.i
+	@echo ... Array_SelectionSort.s
 	@echo ... Array_Test01.obj
 	@echo ... Array_Test01.i
 	@echo ... Array_Test01.s
@@ -1696,6 +1851,9 @@ help:
 	@echo ... Array_Test05.obj
 	@echo ... Array_Test05.i
 	@echo ... Array_Test05.s
+	@echo ... Array_shellSort.obj
+	@echo ... Array_shellSort.i
+	@echo ... Array_shellSort.s
 	@echo ... BT_Test01.obj
 	@echo ... BT_Test01.i
 	@echo ... BT_Test01.s
@@ -1780,12 +1938,18 @@ help:
 	@echo ... Map_DFS_Demo1.obj
 	@echo ... Map_DFS_Demo1.i
 	@echo ... Map_DFS_Demo1.s
+	@echo ... Map_Kruskal.obj
+	@echo ... Map_Kruskal.i
+	@echo ... Map_Kruskal.s
 	@echo ... Map_List.obj
 	@echo ... Map_List.i
 	@echo ... Map_List.s
 	@echo ... Map_List_Demo1.obj
 	@echo ... Map_List_Demo1.i
 	@echo ... Map_List_Demo1.s
+	@echo ... Map_Prime.obj
+	@echo ... Map_Prime.i
+	@echo ... Map_Prime.s
 	@echo ... Map_matrix.obj
 	@echo ... Map_matrix.i
 	@echo ... Map_matrix.s

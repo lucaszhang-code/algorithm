@@ -93,4 +93,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/algorithm_Map_BFS_Demo1.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_Map_DFS.dir/DependInfo.cmake"
   "CMakeFiles/algorithm_Map_DFS_Demo1.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Array_shellSort.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Array_SelectionSort.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_Prime.dir/DependInfo.cmake"
+  "CMakeFiles/algorithm_Map_Kruskal.dir/DependInfo.cmake"
   )

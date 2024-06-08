@@ -9,5 +9,5 @@ CMake Deprecation Warning:
 
 
 -- Configuring done (0.3s)
--- Generating done (1.9s)
+-- Generating done (3.3s)
 -- Build files have been written to: C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug

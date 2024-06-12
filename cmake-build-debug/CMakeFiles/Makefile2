@@ -107,6 +107,9 @@ all: CMakeFiles/algorithm_Array_shellSort.dir/all
 all: CMakeFiles/algorithm_Array_SelectionSort.dir/all
 all: CMakeFiles/algorithm_Map_Prime.dir/all
 all: CMakeFiles/algorithm_Map_Kruskal.dir/all
+all: CMakeFiles/algorithm_String_Test01.dir/all
+all: CMakeFiles/algorithm_String_Test02.dir/all
+all: CMakeFiles/algorithm_String_Test03.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -159,6 +162,9 @@ clean: CMakeFiles/algorithm_Array_shellSort.dir/clean
 clean: CMakeFiles/algorithm_Array_SelectionSort.dir/clean
 clean: CMakeFiles/algorithm_Map_Prime.dir/clean
 clean: CMakeFiles/algorithm_Map_Kruskal.dir/clean
+clean: CMakeFiles/algorithm_String_Test01.dir/clean
+clean: CMakeFiles/algorithm_String_Test02.dir/clean
+clean: CMakeFiles/algorithm_String_Test03.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -922,7 +928,7 @@ CMakeFiles/algorithm_Hash_Test07.dir/clean:
 CMakeFiles/algorithm_demo1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo1.dir\build.make CMakeFiles/algorithm_demo1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo1.dir\build.make CMakeFiles/algorithm_demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target algorithm_demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=91,92 "Built target algorithm_demo1"
 .PHONY : CMakeFiles/algorithm_demo1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -948,7 +954,7 @@ CMakeFiles/algorithm_demo1.dir/clean:
 CMakeFiles/algorithm_demo2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo2.dir\build.make CMakeFiles/algorithm_demo2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo2.dir\build.make CMakeFiles/algorithm_demo2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target algorithm_demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=93,94 "Built target algorithm_demo2"
 .PHONY : CMakeFiles/algorithm_demo2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -974,7 +980,7 @@ CMakeFiles/algorithm_demo2.dir/clean:
 CMakeFiles/algorithm_demo3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo3.dir\build.make CMakeFiles/algorithm_demo3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_demo3.dir\build.make CMakeFiles/algorithm_demo3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target algorithm_demo3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=95,96 "Built target algorithm_demo3"
 .PHONY : CMakeFiles/algorithm_demo3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1104,7 +1110,7 @@ CMakeFiles/algorithm_Map_BFS.dir/clean:
 CMakeFiles/algorithm_dem06.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target algorithm_dem06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=89,90 "Built target algorithm_dem06"
 .PHONY : CMakeFiles/algorithm_dem06.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1330,6 +1336,84 @@ algorithm_Map_Kruskal: CMakeFiles/algorithm_Map_Kruskal.dir/rule
 CMakeFiles/algorithm_Map_Kruskal.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Kruskal.dir\build.make CMakeFiles/algorithm_Map_Kruskal.dir/clean
 .PHONY : CMakeFiles/algorithm_Map_Kruskal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_String_Test01.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_String_Test01.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=83,84 "Built target algorithm_String_Test01"
+.PHONY : CMakeFiles/algorithm_String_Test01.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_String_Test01.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_String_Test01.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_String_Test01.dir/rule
+
+# Convenience name for target.
+algorithm_String_Test01: CMakeFiles/algorithm_String_Test01.dir/rule
+.PHONY : algorithm_String_Test01
+
+# clean rule for target.
+CMakeFiles/algorithm_String_Test01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/clean
+.PHONY : CMakeFiles/algorithm_String_Test01.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_String_Test02.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_String_Test02.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target algorithm_String_Test02"
+.PHONY : CMakeFiles/algorithm_String_Test02.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_String_Test02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_String_Test02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_String_Test02.dir/rule
+
+# Convenience name for target.
+algorithm_String_Test02: CMakeFiles/algorithm_String_Test02.dir/rule
+.PHONY : algorithm_String_Test02
+
+# clean rule for target.
+CMakeFiles/algorithm_String_Test02.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/clean
+.PHONY : CMakeFiles/algorithm_String_Test02.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/algorithm_String_Test03.dir
+
+# All Build rule for target.
+CMakeFiles/algorithm_String_Test03.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=87,88 "Built target algorithm_String_Test03"
+.PHONY : CMakeFiles/algorithm_String_Test03.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/algorithm_String_Test03.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/algorithm_String_Test03.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/algorithm_String_Test03.dir/rule
+
+# Convenience name for target.
+algorithm_String_Test03: CMakeFiles/algorithm_String_Test03.dir/rule
+.PHONY : algorithm_String_Test03
+
+# clean rule for target.
+CMakeFiles/algorithm_String_Test03.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/clean
+.PHONY : CMakeFiles/algorithm_String_Test03.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

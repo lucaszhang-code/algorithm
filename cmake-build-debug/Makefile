@@ -700,6 +700,45 @@ algorithm_Map_Kruskal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Kruskal.dir\build.make CMakeFiles/algorithm_Map_Kruskal.dir/build
 .PHONY : algorithm_Map_Kruskal/fast
 
+#=============================================================================
+# Target rules for targets named algorithm_String_Test01
+
+# Build rule for target.
+algorithm_String_Test01: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_String_Test01
+.PHONY : algorithm_String_Test01
+
+# fast build rule for target.
+algorithm_String_Test01/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/build
+.PHONY : algorithm_String_Test01/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_String_Test02
+
+# Build rule for target.
+algorithm_String_Test02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_String_Test02
+.PHONY : algorithm_String_Test02
+
+# fast build rule for target.
+algorithm_String_Test02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/build
+.PHONY : algorithm_String_Test02/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_String_Test03
+
+# Build rule for target.
+algorithm_String_Test03: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_String_Test03
+.PHONY : algorithm_String_Test03
+
+# fast build rule for target.
+algorithm_String_Test03/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/build
+.PHONY : algorithm_String_Test03/fast
+
 Array_SelectionSort.obj: Array_SelectionSort.cpp.obj
 .PHONY : Array_SelectionSort.obj
 
@@ -1684,6 +1723,78 @@ Map_matrix_demo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_matrix_demo1.dir\build.make CMakeFiles/algorithm_Map_matrix_demo1.dir/Map_matrix_demo1.cpp.s
 .PHONY : Map_matrix_demo1.cpp.s
 
+String_Test01.obj: String_Test01.cpp.obj
+.PHONY : String_Test01.obj
+
+# target to build an object file
+String_Test01.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/String_Test01.cpp.obj
+.PHONY : String_Test01.cpp.obj
+
+String_Test01.i: String_Test01.cpp.i
+.PHONY : String_Test01.i
+
+# target to preprocess a source file
+String_Test01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/String_Test01.cpp.i
+.PHONY : String_Test01.cpp.i
+
+String_Test01.s: String_Test01.cpp.s
+.PHONY : String_Test01.s
+
+# target to generate assembly for a file
+String_Test01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test01.dir\build.make CMakeFiles/algorithm_String_Test01.dir/String_Test01.cpp.s
+.PHONY : String_Test01.cpp.s
+
+String_Test02.obj: String_Test02.cpp.obj
+.PHONY : String_Test02.obj
+
+# target to build an object file
+String_Test02.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/String_Test02.cpp.obj
+.PHONY : String_Test02.cpp.obj
+
+String_Test02.i: String_Test02.cpp.i
+.PHONY : String_Test02.i
+
+# target to preprocess a source file
+String_Test02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/String_Test02.cpp.i
+.PHONY : String_Test02.cpp.i
+
+String_Test02.s: String_Test02.cpp.s
+.PHONY : String_Test02.s
+
+# target to generate assembly for a file
+String_Test02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test02.dir\build.make CMakeFiles/algorithm_String_Test02.dir/String_Test02.cpp.s
+.PHONY : String_Test02.cpp.s
+
+String_Test03.obj: String_Test03.cpp.obj
+.PHONY : String_Test03.obj
+
+# target to build an object file
+String_Test03.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/String_Test03.cpp.obj
+.PHONY : String_Test03.cpp.obj
+
+String_Test03.i: String_Test03.cpp.i
+.PHONY : String_Test03.i
+
+# target to preprocess a source file
+String_Test03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/String_Test03.cpp.i
+.PHONY : String_Test03.cpp.i
+
+String_Test03.s: String_Test03.cpp.s
+.PHONY : String_Test03.s
+
+# target to generate assembly for a file
+String_Test03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/String_Test03.cpp.s
+.PHONY : String_Test03.cpp.s
+
 demo1.obj: demo1.cpp.obj
 .PHONY : demo1.obj
 
@@ -1829,6 +1940,9 @@ help:
 	@echo ... algorithm_Map_matrix_demo1
 	@echo ... algorithm_Queue_Container
 	@echo ... algorithm_Stack_Container
+	@echo ... algorithm_String_Test01
+	@echo ... algorithm_String_Test02
+	@echo ... algorithm_String_Test03
 	@echo ... algorithm_dem06
 	@echo ... algorithm_demo1
 	@echo ... algorithm_demo2
@@ -1956,6 +2070,15 @@ help:
 	@echo ... Map_matrix_demo1.obj
 	@echo ... Map_matrix_demo1.i
 	@echo ... Map_matrix_demo1.s
+	@echo ... String_Test01.obj
+	@echo ... String_Test01.i
+	@echo ... String_Test01.s
+	@echo ... String_Test02.obj
+	@echo ... String_Test02.i
+	@echo ... String_Test02.s
+	@echo ... String_Test03.obj
+	@echo ... String_Test03.i
+	@echo ... String_Test03.s
 	@echo ... demo1.obj
 	@echo ... demo1.i
 	@echo ... demo1.s

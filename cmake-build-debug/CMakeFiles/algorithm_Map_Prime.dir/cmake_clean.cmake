@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj"
-  "CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj.d"
+  "CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj"
+  "CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj.d"
   "algorithm_Map_Prime.exe"
   "algorithm_Map_Prime.exe.manifest"
   "algorithm_Map_Prime.pdb"

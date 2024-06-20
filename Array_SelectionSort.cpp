@@ -10,10 +10,6 @@ void selectionSort(array<int, 9> &arr){
                 min = j;
         }
         swap(arr[i], arr[min]);
-        for(int num : arr){
-            cout << num << " ";
-        }
-        cout<<endl;
     }
 }
 

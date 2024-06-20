@@ -41,10 +41,16 @@ C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Ma
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Map_DFS_Demo1.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Array_shellSort.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Array_SelectionSort.dir
-C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Map_Prime.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Map_Prim.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Map_Kruskal.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_String_Test01.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_String_Test02.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_String_Test03.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_String_Test04.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_prim.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Array_bubbleSort.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Array_insertionSort.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_Array_binaryInsertionSort.dir
+C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/algorithm_binarySearch.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Lucas/Desktop/Study/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir

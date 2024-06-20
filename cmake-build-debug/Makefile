@@ -675,17 +675,17 @@ algorithm_Array_SelectionSort/fast:
 .PHONY : algorithm_Array_SelectionSort/fast
 
 #=============================================================================
-# Target rules for targets named algorithm_Map_Prime
+# Target rules for targets named algorithm_Map_Prim
 
 # Build rule for target.
-algorithm_Map_Prime: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_Prime
-.PHONY : algorithm_Map_Prime
+algorithm_Map_Prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Map_Prim
+.PHONY : algorithm_Map_Prim
 
 # fast build rule for target.
-algorithm_Map_Prime/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/build
-.PHONY : algorithm_Map_Prime/fast
+algorithm_Map_Prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prim.dir\build.make CMakeFiles/algorithm_Map_Prim.dir/build
+.PHONY : algorithm_Map_Prim/fast
 
 #=============================================================================
 # Target rules for targets named algorithm_Map_Kruskal
@@ -738,6 +738,84 @@ algorithm_String_Test03: cmake_check_build_system
 algorithm_String_Test03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/build
 .PHONY : algorithm_String_Test03/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_String_Test04
+
+# Build rule for target.
+algorithm_String_Test04: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_String_Test04
+.PHONY : algorithm_String_Test04
+
+# fast build rule for target.
+algorithm_String_Test04/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test04.dir\build.make CMakeFiles/algorithm_String_Test04.dir/build
+.PHONY : algorithm_String_Test04/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_prim
+
+# Build rule for target.
+algorithm_prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_prim
+.PHONY : algorithm_prim
+
+# fast build rule for target.
+algorithm_prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_prim.dir\build.make CMakeFiles/algorithm_prim.dir/build
+.PHONY : algorithm_prim/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Array_bubbleSort
+
+# Build rule for target.
+algorithm_Array_bubbleSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Array_bubbleSort
+.PHONY : algorithm_Array_bubbleSort
+
+# fast build rule for target.
+algorithm_Array_bubbleSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_bubbleSort.dir\build.make CMakeFiles/algorithm_Array_bubbleSort.dir/build
+.PHONY : algorithm_Array_bubbleSort/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Array_insertionSort
+
+# Build rule for target.
+algorithm_Array_insertionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Array_insertionSort
+.PHONY : algorithm_Array_insertionSort
+
+# fast build rule for target.
+algorithm_Array_insertionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_insertionSort.dir\build.make CMakeFiles/algorithm_Array_insertionSort.dir/build
+.PHONY : algorithm_Array_insertionSort/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_Array_binaryInsertionSort
+
+# Build rule for target.
+algorithm_Array_binaryInsertionSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_Array_binaryInsertionSort
+.PHONY : algorithm_Array_binaryInsertionSort
+
+# fast build rule for target.
+algorithm_Array_binaryInsertionSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_binaryInsertionSort.dir\build.make CMakeFiles/algorithm_Array_binaryInsertionSort.dir/build
+.PHONY : algorithm_Array_binaryInsertionSort/fast
+
+#=============================================================================
+# Target rules for targets named algorithm_binarySearch
+
+# Build rule for target.
+algorithm_binarySearch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithm_binarySearch
+.PHONY : algorithm_binarySearch
+
+# fast build rule for target.
+algorithm_binarySearch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binarySearch.dir\build.make CMakeFiles/algorithm_binarySearch.dir/build
+.PHONY : algorithm_binarySearch/fast
 
 Array_SelectionSort.obj: Array_SelectionSort.cpp.obj
 .PHONY : Array_SelectionSort.obj
@@ -882,6 +960,102 @@ Array_Test05.s: Array_Test05.cpp.s
 Array_Test05.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_Test05.dir\build.make CMakeFiles/algorithm_Array_Test05.dir/Array_Test05.cpp.s
 .PHONY : Array_Test05.cpp.s
+
+Array_binaryInsortionSort.obj: Array_binaryInsortionSort.cpp.obj
+.PHONY : Array_binaryInsortionSort.obj
+
+# target to build an object file
+Array_binaryInsortionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_binaryInsertionSort.dir\build.make CMakeFiles/algorithm_Array_binaryInsertionSort.dir/Array_binaryInsortionSort.cpp.obj
+.PHONY : Array_binaryInsortionSort.cpp.obj
+
+Array_binaryInsortionSort.i: Array_binaryInsortionSort.cpp.i
+.PHONY : Array_binaryInsortionSort.i
+
+# target to preprocess a source file
+Array_binaryInsortionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_binaryInsertionSort.dir\build.make CMakeFiles/algorithm_Array_binaryInsertionSort.dir/Array_binaryInsortionSort.cpp.i
+.PHONY : Array_binaryInsortionSort.cpp.i
+
+Array_binaryInsortionSort.s: Array_binaryInsortionSort.cpp.s
+.PHONY : Array_binaryInsortionSort.s
+
+# target to generate assembly for a file
+Array_binaryInsortionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_binaryInsertionSort.dir\build.make CMakeFiles/algorithm_Array_binaryInsertionSort.dir/Array_binaryInsortionSort.cpp.s
+.PHONY : Array_binaryInsortionSort.cpp.s
+
+Array_binarySearch.obj: Array_binarySearch.cpp.obj
+.PHONY : Array_binarySearch.obj
+
+# target to build an object file
+Array_binarySearch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binarySearch.dir\build.make CMakeFiles/algorithm_binarySearch.dir/Array_binarySearch.cpp.obj
+.PHONY : Array_binarySearch.cpp.obj
+
+Array_binarySearch.i: Array_binarySearch.cpp.i
+.PHONY : Array_binarySearch.i
+
+# target to preprocess a source file
+Array_binarySearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binarySearch.dir\build.make CMakeFiles/algorithm_binarySearch.dir/Array_binarySearch.cpp.i
+.PHONY : Array_binarySearch.cpp.i
+
+Array_binarySearch.s: Array_binarySearch.cpp.s
+.PHONY : Array_binarySearch.s
+
+# target to generate assembly for a file
+Array_binarySearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_binarySearch.dir\build.make CMakeFiles/algorithm_binarySearch.dir/Array_binarySearch.cpp.s
+.PHONY : Array_binarySearch.cpp.s
+
+Array_bubbleSort.obj: Array_bubbleSort.cpp.obj
+.PHONY : Array_bubbleSort.obj
+
+# target to build an object file
+Array_bubbleSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_bubbleSort.dir\build.make CMakeFiles/algorithm_Array_bubbleSort.dir/Array_bubbleSort.cpp.obj
+.PHONY : Array_bubbleSort.cpp.obj
+
+Array_bubbleSort.i: Array_bubbleSort.cpp.i
+.PHONY : Array_bubbleSort.i
+
+# target to preprocess a source file
+Array_bubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_bubbleSort.dir\build.make CMakeFiles/algorithm_Array_bubbleSort.dir/Array_bubbleSort.cpp.i
+.PHONY : Array_bubbleSort.cpp.i
+
+Array_bubbleSort.s: Array_bubbleSort.cpp.s
+.PHONY : Array_bubbleSort.s
+
+# target to generate assembly for a file
+Array_bubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_bubbleSort.dir\build.make CMakeFiles/algorithm_Array_bubbleSort.dir/Array_bubbleSort.cpp.s
+.PHONY : Array_bubbleSort.cpp.s
+
+Array_insertionSort.obj: Array_insertionSort.cpp.obj
+.PHONY : Array_insertionSort.obj
+
+# target to build an object file
+Array_insertionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_insertionSort.dir\build.make CMakeFiles/algorithm_Array_insertionSort.dir/Array_insertionSort.cpp.obj
+.PHONY : Array_insertionSort.cpp.obj
+
+Array_insertionSort.i: Array_insertionSort.cpp.i
+.PHONY : Array_insertionSort.i
+
+# target to preprocess a source file
+Array_insertionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_insertionSort.dir\build.make CMakeFiles/algorithm_Array_insertionSort.dir/Array_insertionSort.cpp.i
+.PHONY : Array_insertionSort.cpp.i
+
+Array_insertionSort.s: Array_insertionSort.cpp.s
+.PHONY : Array_insertionSort.s
+
+# target to generate assembly for a file
+Array_insertionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Array_insertionSort.dir\build.make CMakeFiles/algorithm_Array_insertionSort.dir/Array_insertionSort.cpp.s
+.PHONY : Array_insertionSort.cpp.s
 
 Array_shellSort.obj: Array_shellSort.cpp.obj
 .PHONY : Array_shellSort.obj
@@ -1651,29 +1825,29 @@ Map_List_Demo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_List_Demo1.dir\build.make CMakeFiles/algorithm_Map_List_Demo1.dir/Map_List_Demo1.cpp.s
 .PHONY : Map_List_Demo1.cpp.s
 
-Map_Prime.obj: Map_Prime.cpp.obj
-.PHONY : Map_Prime.obj
+Map_Prim.obj: Map_Prim.cpp.obj
+.PHONY : Map_Prim.obj
 
 # target to build an object file
-Map_Prime.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj
-.PHONY : Map_Prime.cpp.obj
+Map_Prim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prim.dir\build.make CMakeFiles/algorithm_Map_Prim.dir/Map_Prim.cpp.obj
+.PHONY : Map_Prim.cpp.obj
 
-Map_Prime.i: Map_Prime.cpp.i
-.PHONY : Map_Prime.i
+Map_Prim.i: Map_Prim.cpp.i
+.PHONY : Map_Prim.i
 
 # target to preprocess a source file
-Map_Prime.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.i
-.PHONY : Map_Prime.cpp.i
+Map_Prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prim.dir\build.make CMakeFiles/algorithm_Map_Prim.dir/Map_Prim.cpp.i
+.PHONY : Map_Prim.cpp.i
 
-Map_Prime.s: Map_Prime.cpp.s
-.PHONY : Map_Prime.s
+Map_Prim.s: Map_Prim.cpp.s
+.PHONY : Map_Prim.s
 
 # target to generate assembly for a file
-Map_Prime.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prime.dir\build.make CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.s
-.PHONY : Map_Prime.cpp.s
+Map_Prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_Map_Prim.dir\build.make CMakeFiles/algorithm_Map_Prim.dir/Map_Prim.cpp.s
+.PHONY : Map_Prim.cpp.s
 
 Map_matrix.obj: Map_matrix.cpp.obj
 .PHONY : Map_matrix.obj
@@ -1795,6 +1969,30 @@ String_Test03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test03.dir\build.make CMakeFiles/algorithm_String_Test03.dir/String_Test03.cpp.s
 .PHONY : String_Test03.cpp.s
 
+String_Test04.obj: String_Test04.cpp.obj
+.PHONY : String_Test04.obj
+
+# target to build an object file
+String_Test04.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test04.dir\build.make CMakeFiles/algorithm_String_Test04.dir/String_Test04.cpp.obj
+.PHONY : String_Test04.cpp.obj
+
+String_Test04.i: String_Test04.cpp.i
+.PHONY : String_Test04.i
+
+# target to preprocess a source file
+String_Test04.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test04.dir\build.make CMakeFiles/algorithm_String_Test04.dir/String_Test04.cpp.i
+.PHONY : String_Test04.cpp.i
+
+String_Test04.s: String_Test04.cpp.s
+.PHONY : String_Test04.s
+
+# target to generate assembly for a file
+String_Test04.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_String_Test04.dir\build.make CMakeFiles/algorithm_String_Test04.dir/String_Test04.cpp.s
+.PHONY : String_Test04.cpp.s
+
 demo1.obj: demo1.cpp.obj
 .PHONY : demo1.obj
 
@@ -1891,6 +2089,30 @@ demo6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_dem06.dir\build.make CMakeFiles/algorithm_dem06.dir/demo6.cpp.s
 .PHONY : demo6.cpp.s
 
+prim.obj: prim.c.obj
+.PHONY : prim.obj
+
+# target to build an object file
+prim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_prim.dir\build.make CMakeFiles/algorithm_prim.dir/prim.c.obj
+.PHONY : prim.c.obj
+
+prim.i: prim.c.i
+.PHONY : prim.i
+
+# target to preprocess a source file
+prim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_prim.dir\build.make CMakeFiles/algorithm_prim.dir/prim.c.i
+.PHONY : prim.c.i
+
+prim.s: prim.c.s
+.PHONY : prim.s
+
+# target to generate assembly for a file
+prim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algorithm_prim.dir\build.make CMakeFiles/algorithm_prim.dir/prim.c.s
+.PHONY : prim.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1905,6 +2127,9 @@ help:
 	@echo ... algorithm_Array_Test03
 	@echo ... algorithm_Array_Test04
 	@echo ... algorithm_Array_Test05
+	@echo ... algorithm_Array_binaryInsertionSort
+	@echo ... algorithm_Array_bubbleSort
+	@echo ... algorithm_Array_insertionSort
 	@echo ... algorithm_Array_shellSort
 	@echo ... algorithm_BT_Test01
 	@echo ... algorithm_BT_Test02
@@ -1935,7 +2160,7 @@ help:
 	@echo ... algorithm_Map_Kruskal
 	@echo ... algorithm_Map_List
 	@echo ... algorithm_Map_List_Demo1
-	@echo ... algorithm_Map_Prime
+	@echo ... algorithm_Map_Prim
 	@echo ... algorithm_Map_matrix
 	@echo ... algorithm_Map_matrix_demo1
 	@echo ... algorithm_Queue_Container
@@ -1943,10 +2168,13 @@ help:
 	@echo ... algorithm_String_Test01
 	@echo ... algorithm_String_Test02
 	@echo ... algorithm_String_Test03
+	@echo ... algorithm_String_Test04
+	@echo ... algorithm_binarySearch
 	@echo ... algorithm_dem06
 	@echo ... algorithm_demo1
 	@echo ... algorithm_demo2
 	@echo ... algorithm_demo3
+	@echo ... algorithm_prim
 	@echo ... Array_SelectionSort.obj
 	@echo ... Array_SelectionSort.i
 	@echo ... Array_SelectionSort.s
@@ -1965,6 +2193,18 @@ help:
 	@echo ... Array_Test05.obj
 	@echo ... Array_Test05.i
 	@echo ... Array_Test05.s
+	@echo ... Array_binaryInsortionSort.obj
+	@echo ... Array_binaryInsortionSort.i
+	@echo ... Array_binaryInsortionSort.s
+	@echo ... Array_binarySearch.obj
+	@echo ... Array_binarySearch.i
+	@echo ... Array_binarySearch.s
+	@echo ... Array_bubbleSort.obj
+	@echo ... Array_bubbleSort.i
+	@echo ... Array_bubbleSort.s
+	@echo ... Array_insertionSort.obj
+	@echo ... Array_insertionSort.i
+	@echo ... Array_insertionSort.s
 	@echo ... Array_shellSort.obj
 	@echo ... Array_shellSort.i
 	@echo ... Array_shellSort.s
@@ -2061,9 +2301,9 @@ help:
 	@echo ... Map_List_Demo1.obj
 	@echo ... Map_List_Demo1.i
 	@echo ... Map_List_Demo1.s
-	@echo ... Map_Prime.obj
-	@echo ... Map_Prime.i
-	@echo ... Map_Prime.s
+	@echo ... Map_Prim.obj
+	@echo ... Map_Prim.i
+	@echo ... Map_Prim.s
 	@echo ... Map_matrix.obj
 	@echo ... Map_matrix.i
 	@echo ... Map_matrix.s
@@ -2079,6 +2319,9 @@ help:
 	@echo ... String_Test03.obj
 	@echo ... String_Test03.i
 	@echo ... String_Test03.s
+	@echo ... String_Test04.obj
+	@echo ... String_Test04.i
+	@echo ... String_Test04.s
 	@echo ... demo1.obj
 	@echo ... demo1.i
 	@echo ... demo1.s
@@ -2091,6 +2334,9 @@ help:
 	@echo ... demo6.obj
 	@echo ... demo6.i
 	@echo ... demo6.s
+	@echo ... prim.obj
+	@echo ... prim.i
+	@echo ... prim.s
 .PHONY : help
 
 

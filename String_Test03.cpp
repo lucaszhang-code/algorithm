@@ -5,9 +5,8 @@ string intToNum(string &str){
     // 找到字符串中的数字，并且拓展字符串长度
     int oldSize = str.size();
     int count = 0;
-    for(int i = 0; i < str.length(); i++){
-        if(str[i] >= '0' && str[i] <= '9') count++;
-    }
+    for(char c : str)
+        if(c >= '0' && c <= '9') count++;
 
     // 扩展数组长度
     str.resize(str.length() + count * 5);

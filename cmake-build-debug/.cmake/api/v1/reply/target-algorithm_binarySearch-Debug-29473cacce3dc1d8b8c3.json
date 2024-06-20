@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "algorithm_Map_Prime.exe"
+			"path" : "algorithm_binarySearch.exe"
 		},
 		{
-			"path" : "algorithm_Map_Prime.pdb"
+			"path" : "algorithm_binarySearch.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 50,
+				"line" : 60,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "algorithm_Map_Prime::@6890427a1f51a3e7e1df",
+	"id" : "algorithm_binarySearch::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "algorithm_Map_Prime",
-	"nameOnDisk" : "algorithm_Map_Prime.exe",
+	"name" : "algorithm_binarySearch",
+	"nameOnDisk" : "algorithm_binarySearch.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Map_Prime.cpp",
+			"path" : "Array_binarySearch.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -68,28 +68,28 @@ include CMakeFiles/algorithm_Map_Prime.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algorithm_Map_Prime.dir/flags.make
 
-CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj: CMakeFiles/algorithm_Map_Prime.dir/flags.make
-CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj: C:/Users/Lucas/Desktop/Study/algorithm/Map_Prime.cpp
-CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj: CMakeFiles/algorithm_Map_Prime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj"
-	C:\Users\Lucas\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj -MF CMakeFiles\algorithm_Map_Prime.dir\Map_Prime.cpp.obj.d -o CMakeFiles\algorithm_Map_Prime.dir\Map_Prime.cpp.obj -c C:\Users\Lucas\Desktop\Study\algorithm\Map_Prime.cpp
+CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj: CMakeFiles/algorithm_Map_Prime.dir/flags.make
+CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj: C:/Users/Lucas/Desktop/Study/algorithm/Map_Prim.cpp
+CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj: CMakeFiles/algorithm_Map_Prime.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lucas\Desktop\Study\algorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj"
+	C:\Users\Lucas\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj -MF CMakeFiles\algorithm_Map_Prime.dir\Map_Prim.cpp.obj.d -o CMakeFiles\algorithm_Map_Prime.dir\Map_Prim.cpp.obj -c C:\Users\Lucas\Desktop\Study\algorithm\Map_Prim.cpp
 
-CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.i"
-	C:\Users\Lucas\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Desktop\Study\algorithm\Map_Prime.cpp > CMakeFiles\algorithm_Map_Prime.dir\Map_Prime.cpp.i
+CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.i"
+	C:\Users\Lucas\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lucas\Desktop\Study\algorithm\Map_Prim.cpp > CMakeFiles\algorithm_Map_Prime.dir\Map_Prim.cpp.i
 
-CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.s"
-	C:\Users\Lucas\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Desktop\Study\algorithm\Map_Prime.cpp -o CMakeFiles\algorithm_Map_Prime.dir\Map_Prime.cpp.s
+CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.s"
+	C:\Users\Lucas\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lucas\Desktop\Study\algorithm\Map_Prim.cpp -o CMakeFiles\algorithm_Map_Prime.dir\Map_Prim.cpp.s
 
 # Object files for target algorithm_Map_Prime
 algorithm_Map_Prime_OBJECTS = \
-"CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj"
+"CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj"
 
 # External object files for target algorithm_Map_Prime
 algorithm_Map_Prime_EXTERNAL_OBJECTS =
 
-algorithm_Map_Prime.exe: CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj
+algorithm_Map_Prime.exe: CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj
 algorithm_Map_Prime.exe: CMakeFiles/algorithm_Map_Prime.dir/build.make
 algorithm_Map_Prime.exe: CMakeFiles/algorithm_Map_Prime.dir/linkLibs.rsp
 algorithm_Map_Prime.exe: CMakeFiles/algorithm_Map_Prime.dir/objects1.rsp

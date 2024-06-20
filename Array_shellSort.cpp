@@ -23,9 +23,12 @@ using namespace std;
 
 
 void shellSort(array<int, 10> &arr) {
+    int gapArr[3] = {5, 3, 1};
     int n = arr.size();
+    int index = 0;
     // 初始化间隔值
-    for (int gap = n / 2; gap > 0; gap /= 2) {
+   while(index < 3){
+       int gap = gapArr[index++];
         // 从间隔值开始进行插入排序
         for (int i = gap; i < n; i++) {
             int temp = arr[i];
@@ -36,6 +39,8 @@ void shellSort(array<int, 10> &arr) {
             }
             arr[j] = temp;
         }
+        for(int num : arr) cout<<num<<" ";
+        cout<<endl;
     }
 }
 
@@ -43,7 +48,7 @@ void shellSort(array<int, 10> &arr) {
 
 int main(){
 
-    array<int,10> arr = {-9,8,7,6,5,4,3,2,1,0};
+    array<int,10> arr = {9,13,8,2,5,13,7,1,15,11};
     shellSort(arr);
     for(int num : arr){
         cout<<num<<" ";

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Lucas/Desktop/Study/algorithm/Map_Prime.cpp" "CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj" "gcc" "CMakeFiles/algorithm_Map_Prime.dir/Map_Prime.cpp.obj.d"
+  "C:/Users/Lucas/Desktop/Study/algorithm/Map_Prim.cpp" "CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj" "gcc" "CMakeFiles/algorithm_Map_Prime.dir/Map_Prim.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
